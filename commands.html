@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>commands</title>
+</head>
+<body>
+<pre>
+Create a new repository on the command line
+---------------------------------------------
+	echo "# githubappsdc" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/JagannathKumarCh/githubappsdc.git
+	git push -u origin master
+
+Push an existing repository from the command line
+-------------------------------------------------
+			git remote add origin https://github.com/JagannathKumarCh/githubappsdc.git
+	Syntax :git push remotename branchname 
+			git push -u origin master
+
+To Create a remote 
+------------------
+	Syntax :git remote add var_name link
+			git remote add origin https://github.com/JagannathKumarCh/githubappsdc.git
+
+To Know the link 
+---------------
+	git remote  ---> Shows an variable name or (origin)
+	git remote -v
+
+To Synchnronize from github -->Local Repository 
+----------------
+	syntax :git pull remotename branchname 
+			git pull appsdc master
+
+Steps to Synchnronize Repositories
+----------------------------------
+			1.remote to local 
+			2.local to remote
+
+
+
+
+</pre>
+</body>
+</html>
